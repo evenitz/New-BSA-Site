@@ -1,0 +1,29 @@
+<div id="tabs">
+  <%= render 'info_tabs' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> University Maps </h1>
+  </div>
+<div id="tab_navigation">
+    <ul>
+      <li><%= link_to "Bear Bucks", info_general_bear_bucks_path %></li>
+      <li><%= link_to "Campus Center Map", info_general_map_path %></li>
+      <li><%= link_to "Bulletin Boards", info_general_bulletin_path %></li>
+      <li><%= link_to "Building Checklist", info_general_building_checklist_path %></li>
+      <li><%= link_to "Pool Table Policies", info_general_pool_table_path %></li>
+    </ul>
+  </div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+    <hr>
+	<p>Additional maps can be found at <a href="http://brown.edu/Facilities/Facilities_Management/services/map_download.php">this link</a>.</p>
+				<p><iframe width="650" height="650" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/?ie=UTF8&amp;ll=41.82494,-71.400114&amp;spn=0.006684,0.016512&amp;t=m&amp;z=17&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/?ie=UTF8&amp;ll=41.82494,-71.400114&amp;spn=0.006684,0.016512&amp;t=m&amp;z=17&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small></p>
+    </div>
+    <div id="tab_content_image">
+    </div>
+  </div>
+  <div id="tab_navigation">
+  </div>
+</div>

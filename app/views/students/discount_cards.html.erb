@@ -1,0 +1,23 @@
+<div id="tabs">
+  <%= render "student_services_tab" %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Student Advantage Cards </h1>
+  </div>
+
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <p> Pizza, coffee, music, entertainment, transportation... one lesson that all students and parents learn is that money goes fast. That's where Student Advantage comes in handy! Cardholders get exclusive discounts of up to 50% on their every day expenses around campus, online, and at nationwide chains. </p>
+      <p> For example, students can save 15% on Greyhound and Amtrak all year long! Other major retailers include Target, AMC Entertainment, Barnes & Noble, Urban Outfitters, and more! Check out our <%= link_to "list", "http://www.studentadvantage.com/content/?id=762" %> of national retailer discounts. </p>
+      <p> To place your order by phone or for any customer service questions, please call 1-800-347-7554. </p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "studentadvantage_logo.jpg", :width => 200 %>
+      <%= link_to "Order now!", "http://studentadvantage.com/brown" %>
+    </div>
+  </div>
+  <div id="tab_navigation">
+  </div>
+</div>

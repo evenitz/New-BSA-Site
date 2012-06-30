@@ -1,0 +1,30 @@
+<div id="tabs">
+  <%= render 'info_tabs' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> BSA Email Procedures </h1>
+  </div>
+<div id="tab_navigation">
+    <ul>
+      <li><%= link_to "Task Sheet", info_procedures_task_sheet_path %></li>
+      <li><%= link_to "Illegal Ad Invoices", info_procedures_illegal_ad_path %></li>
+      <li><%= link_to "BSA Email", info_procedures_bsa_email_path%></li>
+      <li><%= link_to "Credit Card Terminal", info_procedures_credit_card_terminal_path %></li>
+      <li><%= link_to "Voicemail", info_procedures_voicemail_path %></li>
+      <li><%= link_to "Payroll", info_procedures_payroll_path %></li>
+      <li><%= link_to "Training Manual", info_procedures_training_manual_path %></li>
+    </ul>
+  </div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+    <hr>
+	<p><iframe src="https://docs.google.com/document/pub?id=1mNDgsxj6_KKW1uuHDWXJ1Ke1x2QMlifMUISYMzNqKKk&amp;embedded=true" width="650" height="860" frameborder="0" marginheight="0" marginwidth="0"></iframe></p>
+    </div>
+    <div id="tab_content_image">
+    </div>
+  </div>
+  <div id="tab_navigation">
+  </div>
+</div>

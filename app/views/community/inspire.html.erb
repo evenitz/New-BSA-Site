@@ -1,0 +1,27 @@
+<div id="tabs">
+  <%= render 'community_tabs' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Funding to Make it Happen </h1>
+  </div>
+  <div id="tab_navigation">
+    <ul>
+      <li><%= link_to "Guidelines", community_inspire_guidelines_path %> </li>
+      <li><%= link_to "How to Apply", community_inspire_apply_path %> </li>
+    </ul>
+  </div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+        <hr>
+        <p>Do you have an inspirational idea that could change our community but lack the resources to make it happen?</p>
+				<p>BSA Inspire is the solution. We provide funding to students working on community projects, making an otherwise unattainable idea into reality.</p>
+				<p>We are looking for innovative students with exciting ideas. BSA may reward up to $1,000 to projects fitting our project criteria.</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "bsa_inspire_logo.png", :height => "150px" %>
+    </div>
+  </div>
+
+</div>

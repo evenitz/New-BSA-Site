@@ -1,0 +1,52 @@
+<div class="main">
+	<h2>View Tickets</h2>
+	<p><form action="?" method="post" id="frmEntries" name="frmEntries">Sponsor Code:<br> <input type="text" name="sponsor" id="sponsor" value=""  style="padding:5px;border:1px solid #ccc;" size="20" /> <br><br>Event ID:<br> <input type="text" name="ref" id="ref" value="" style="padding:5px;border:1px solid #ccc;" size="20" /><br><br><a class="btn" href="javascript:void(0)" onclick="document.forms.frmEntries.submit()">Submit</a></p>
+	    <div class="tabs">
+	      <%- tix = [] -%>
+	       <%- if @entries -%>
+	      <h3 style="padding-top:25px;margin-left:25px;font-size:24px;"><%= h @event.name %>: Check-Ins</h3>
+	      <table id="box-table-a" summary="Tickets Scanned">
+            <thead>
+            	<tr>
+                	<th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Time</th>
+                </tr>
+            </thead>
+            <tbody>
+              <%- for t in @entries -%>
+            	<tr onclick="document.location.href='/mikey/connieshrimp/<%= t.ref %>'">
+                	<td><%= t.id %></td>
+                    <td><%= h t.user.name%></td>
+                    <td><%= t.created_at.getlocal().strftime("%m/%d %H:%M:%S") %></td>
+                </tr>
+                <%- tix << t.ticket_id -%>
+                <%- end -%>
+            </tbody>
+        </table>
+        <%- end -%>
+        <%- if not @event.blank? and @event.tickets.size > 0 -%>
+	      <h3 style="padding-top:25px;margin-left:25px;font-size:24px;"><%= h @event.name %>: Unredeemed Tickets</h3>
+	      <table id="box-table-a" summary="Tickets Scanned">
+            <thead>
+            	<tr>
+                	<th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Time</th>
+                </tr>
+            </thead>
+            <tbody>
+              <%- for t in @event.tickets -%>
+              <%- unless tix.include? t.id %>
+            	<tr>
+                	<td><%= t.id %></td>
+                    <td><%= h t.user.name%></td>
+                    <td><%= t.created_at.getlocal().strftime("%m/%d %H:%M:%S") %></td>
+                </tr>
+                <%- end -%>
+                <%- end -%>
+            </tbody>
+        </table>
+        <%- end -%>
+	    </div>
+</div>

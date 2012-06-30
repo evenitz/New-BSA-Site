@@ -1,0 +1,28 @@
+<div id="tabs">
+  <%= render "student_services_tab" %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Upcycling Thrift Store </h1>
+  </div>
+
+  <div id="tab_navigation">
+    <ul>
+      <li><%= link_to "Store Info", students_store_info_path %></li>
+      <li><%= link_to "Gallery", students_gallery_path %></li>
+    </ul>
+  </div>
+
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <hr>
+      <p>Founded in 2011 by Tara Noble '12.5 and Hannah Winkler '13, The Vault is a student-run upcycling initiative that facilitiates exchange of goods, skills, and ideas in the Brown Community.</p>
+				<p>The Vault holds regular sale days on campus and accepts donations of gently used clothing, accessories, and small household items. Donors receive 50% of their donation value in never-expiring store credit.</p>
+				<p>Profits from sales go towards employment and funding for free workshops that promote environmental causes. Past workshops have taught students to transform old T-shirts, create homemade halloween costumes, and keep warm in the winter with the smallest ecological footprint possible.</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "vaultlogo.jpg", :width => 200 %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<div id="tabs">
+  <%= render 'student_groups_tab' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> The Brown Marketplace </h1>
+  </div>
+<div id="tab_navigation">
+    <ul>
+      <li> <%= link_to "Listing Request Form", groups_marketplace_request_form_path %> </li>
+      <li> <%= link_to "Past Transactions", groups_marketplace_transactions_path %> </li>
+    </ul>
+  </div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <hr>
+      <p>The Brown Marketplace is the official application serving all Brown University student groups, handling transactions of online purchases to both the Brown community and the general public.</p>	
+				<p>Got a product or event you want to sell? Let BSA handle all of the logistics so you can focus on what’s important! We offer:
+				<ul>
+					<li><u>Convenience</u>: Tell us what you need and we will make it happen. Don't worry about reserving space, finding staff, and spending time to sell your products. We will take care of it for you.</li><br>
+					<li><u>Reach</u>: Sell your products to anyone with a computer, internet, and credit card increasing the reach of your product or event.</li><br>
+					<li><u>Security</u>: We will handle all financial transactions for you through our secure system. Payments will be deposited to your group's billing account. No more dealing with cash or checks.</li><br>
+					<li><u>Flexibility</u>: Customize the process. You determine who to sell, how many to sell, what information to collect, and more.</li><br>
+					<li><u>Customer Satisfaction</u>: Avoid having lines and disgruntled customers who can't make your sale times. The Brown Marketplace is open 24/7 and can process hundreds of simultaneous requests.</li><br>
+				</ul>
+				</p>
+    </div>
+    <div id="tab_content_image">
+      <%= link_to "Storefront", "https://payment.brown.edu/C20460_ustores/web/store_main.jsp?STOREID=2&SINGLESTORE=true" %>
+    </div>
+  </div>
+  <div id="tab_navigation">
+  </div>
+</div>

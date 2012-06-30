@@ -1,0 +1,154 @@
+body {
+  background-color: #ccc;
+}
+
+p {
+  line-height: 24px;
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+header {
+  background-color: white;
+  border-radius:15px;
+  padding-bottom: 1px;
+  margin-bottom: 25px;
+  box-shadow: 13px 13px 5px #888888;
+  font-size: 20px;
+}
+
+#navivation {
+  display: inline-block;
+}
+
+header a {
+}
+
+header img {
+  display: inline-block;
+}
+
+header ul {
+  position: relative;
+  top: 30px;
+}
+
+
+#body_container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: white;*/
+}
+
+#navigation {
+  border-bottom: solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-width: 2px;
+}
+
+#nav_menu {
+  display: inline-block;
+}
+
+#logo {
+  display: inline-block;
+}
+
+#navigation li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#main_container {
+  background-color: white;
+  box-shadow: 13px 13px 5px #888888;
+  border-radius: 15px;
+  padding-top: 25px;
+}
+
+
+#tabs {
+  float: left;
+  border-right: solid;
+  border-width: 5px;
+  padding-right: 30px;
+  margin-right: 70px;
+}
+
+#tabs ul {
+  list-style-type: none;
+}
+
+#tabs li {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#tabs a {
+  font-size: 18px;
+}
+
+#tab_content_container {
+  float: left;
+}
+
+#tab_content_container h1 {
+  color: rgb(70, 23, 0);
+  border-bottom: solid 2px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* ~54 characters a line */
+#tab_content_text {
+  width: 470px;
+  float: left;
+  margin-right: 50px;
+}
+
+#tab_content_text h2 {
+  color: rgb(215, 4, 18);
+  text-align: center;
+}
+
+
+#tab_content_image {
+  width: 200px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 100px;
+  border: solid 10px;
+}
+
+#tab_content_image a {
+  margin-left: 40px;
+}
+
+footer {
+  margin-top: 20px;
+  border-width: 2px;
+  background-color: white;
+  box-shadow: 13px 13px 5px #888888;
+  border-radius: 15px;
+}
+
+footer p {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#footer_logo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

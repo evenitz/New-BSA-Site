@@ -1,0 +1,41 @@
+<div id="tabs">
+ <%= render 'student_services_tab' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Shipping To and From Brown </h1>
+  </div>
+  <div id="tab_navigation">
+    <ul>
+      <li> <%= link_to "Preparing to Store", students_storage_prepare_to_store_path %> </li>
+      <li> <%= link_to "Storage Pricing", students_storage_storage_pricing_path %> </li>
+      <li> <%= link_to "Ship from Brown", students_storage_ship_from_brown_path %> </li>
+      <li> <%= link_to "Ship to Brown", students_storage_ship_to_brown_path %> </li>
+      <li> <%= link_to "Supplies", students_storage_supplies_path %> </li>
+      <li> <%= link_to "Pick up & Delivery", students_storage_delivery_path %> </li>
+    </ul>
+  </div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <hr>
+      <p><u>Shipping To Brown</u></p>
+				<p>Storage Center will offer ALL students including incoming freshman the opportunity to ship packages to our main location at: </p>
+				<p>35 Oxford Street<br>Providence, RI 02912.</p>
+				<p>Storage Center will receive packages from any company (such as UPS, USPS, FedEx, DHL, ect).</p>
+				<p>Cost: Storage Center will receive, store, and deliver each package for $10. Any box that is "oversized" or requires two men to handle is an additional $5.</p>
+				<ol>
+					<li>The student completes Storage Center's online form.</li><br>
+					<li>The student ships the boxes to Storage Center and keeps record of tracking number in case boxes are not received.</li><br>
+					<li>If the student has storage with us over the summer, Storage Center will merge these boxes with the stored items and return them together.</li><br>
+					<li>If the student does not have storage with us currently, Storage Center will store the shipped boxes for up to 20 days free of charge.  If the boxes will be stored more than 20 days then the fee will be $25 for up to 5 boxes and $45 for up to 10 boxes.<br><br>
+					Storage Center will deliver to one of the 3 main locations free of charge. The student must complete online delivery reservation form.</li>
+				</ol>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "storage_center_small.jpg", :width => 200 %>
+      <%= link_to "Reserve Now!", "http://storagecenter.com/?page_id=418" %>
+    </div>
+  </div>
+
+</div>

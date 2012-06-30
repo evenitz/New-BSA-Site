@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Brown Student Agencies - <%= @page_title %></title>
+	<link rel="stylesheet" media="all" href="/_ui/css/main.css?<%= Time.now.to_i %>">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30612377-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+<body class="no-js" onload="setupLinks()">
+
+<div class="container">
+
+	<nav id="accessibility-nav">
+		<ol>
+			<li><a href="#navigation">Skip to navigation</a></li>
+			<li><a href="#content">Skip to content</a></li>
+		</ol>
+	</nav>
+	<!-- / accessibility-nav -->
+	<hr />
+
+  <%= render :partial => "header" %>
+	<!-- / header -->
+	<hr />
+
+	<div id="content">
+		<header class="title">
+			<h1><%= @page_title %></h1>
+		</header>
+		<div class="content-inner">
+			<%= yield %>
+		</div>
+	</div>
+	<!-- / content -->
+	<hr />
+
+	<footer id="footer">
+		<ul class="vcard">
+			<li>Copyright 2012 <span class="fn org">Brown Student Agencies</span></li>
+			<li class="adr"><span class="street-address">69 Brown St</span>, Box 2001, <span class="locality">Providence</span> <abbr class="region">RI</abbr> <span class="postal-code">02912</span></li> 
+			<li class="tel">bsa@brown.edu</li>
+		</ul>
+	</footer>
+	<!-- / footer -->
+
+</div>
+<!-- / container -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/_ui/js/easySlider1.7.js"></script>
+<script src="/_ui/js/main.js?<%= Time.now.to_i %>"></script>
+</body>
+</html>

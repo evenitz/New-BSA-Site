@@ -1,0 +1,30 @@
+<div class="main">
+	<h2>View Users <a href="/mikey/lingkepoo/">(Back)</a></h2>
+	<p><form action="?" method="post" id="frmEntries" name="frmEntries">User Email:<br> <input type="text" name="email" id="email" value=""  style="padding:5px;border:1px solid #ccc;" size="20" /> <br><br><a class="btn" href="javascript:void(0)" onclick="document.forms.frmEntries.submit()">Submit</a></form></p>
+	    <div class="tabs">
+	      <%- tix = [] -%>
+	       <%- if @users -%>
+	      <h3 style="padding-top:25px;margin-left:25px;font-size:24px;">Potential Users</h3>
+	      <table id="box-table-a" summary="Tickets Scanned">
+            <thead>
+            	<tr>
+                	<th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+              <%- for t in @users -%>
+            	<tr onclick="document.location.href='/mikey/connieshrimp/<%= t.ref %>'">
+                	<td><%= t.id %></td>
+                    <td><%= h t.name %></td>
+                    <td><%= h t.email %></td>
+                </tr>
+                <%- end -%>
+            </tbody>
+        </table>
+        <%- end -%>
+	    </div>
+	      <h3 style="padding-top:25px;font-size:24px;">New User</h3>
+        	<p><form action="/mikey/create_user" method="post" id="frmNew" name="frmnew">User Email:<br> <input type="text" name="email" id="email" value=""  style="padding:5px;border:1px solid #ccc;" size="20" />User Name:<br> <input type="text" name="name" id="name" value=""  style="padding:5px;border:1px solid #ccc;" size="20" /> <br><br><a class="btn" href="javascript:void(0)" onclick="document.forms.frmnew.submit()">Submit</a></form></p>
+</div>

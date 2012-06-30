@@ -1,0 +1,23 @@
+<p>Dear <strong><%= h @user[1].capitalize %></strong>,</p>
+<p>Welcome to BSA web publishing for <strong>brownbsa.com</strong>. All core infrastructure and content is now in place, so please browse through the site and make the necessary changes. Below is a guide to logging in through FTP and editing online content:</p>
+<p>To login, please use the following information:</p>
+<p><strong>FTP Host:</strong> brownbsa.com</p>
+<p><strong>Username:</strong> <%= @user[1] %></p>
+<p><strong>Password</strong> <%= @user[2] %></p>
+<p><strong>IMPORTANT:</strong> In order to successfully connect, you must disable PASSIVE mode.</p>
+<p>Once successfully logged in, you will see a number of different folders. Each folder represents brownbsa.com/[folder name] - with a few important exceptions. home maps to brownbsa.com/ (root), layouts represents rails templates for the website layout that are reused throughout the site. When you edit any individual file in a folder, only a portion of the page's html is included - the container, stylesheets, javascripts etc. all come from layouts. media houses images, pdf files etc. media/images maps to brownbsa.com/_media/images. media/pdf maps to brownbsa.com/_media/pdf. qr is for squid scanner. anything ending in mailer is a template for an automated email and won't show up on the website. lastly, summer shows up at brownbsa.com/summer but seeing as summer is a ways away, nothing links to it yet.</p>
+<p>If you go inside one of the folders, you will notice that the files have the extension .html.erb. They are regular html files, but for rails to display them as an include in the layout, they need to have this extension. You can edit them with any text editor and even Dreamweaver. Just let your program know to recognize them next time.</p>
+<p>The tabbed template found at brownbsa.com/students, /groups etc. is commonly used throughout almost all of the site. It has a few basic components:</p>
+<p><strong>h2</strong> - the H2 element sets the title for the top of the page</p>
+<p><strong>p</strong> - the p element below the h2 describes the content as a whole</p>
+<p><strong>ul class="tab-nav"</strong> - represents the tabbed links for a page. the id is ln-tab-name, the href is #tab-name, and the id for the link is ln-tab-name.</p>
+<p><strong>div id="tab-name" class="tab-content"</strong> - this represents the action content. it has two inner divs - details for the content and image for the image and button.</p>
+<p>For the time being, please refrain from embedding &lt;a&gt; links within &lt;p&gt; paragraphs or &lt;li&gt;'s. They won't show up and I had to use a hack to make the links on the home page (under the different box categories) show up. This is why you will see markup looking like this:</p>
+<p><em>&lt;li bsahref="/groups#squid"&gt;</em></p>
+<p>If you wish to edit the link, make sure the attribute stays "bsahref" and isn't changed to "href", but edit the contents inside to change the link.</p>
+<p>I'm sure there are a few things I forgot to mention here, so if you have questions or just want your password changed, email me at <strong>vish@brown.edu</strong>. Also, if there is anyone I forgot to give access let me know.</p>
+<p>Best,</p>
+<p>Ben Vishny</p>
+<p>Director of Technology, BSA</p>
+<p>Vish@Brown.edu</p>
+<p>(847) 494-5816</p>

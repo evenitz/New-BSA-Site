@@ -1,0 +1,46 @@
+<div id="tabs">
+ <%= render 'student_services_tab' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Boxes and Supplies </h1>
+  </div>
+  <div id="tab_navigation">
+    <ul>
+      <li> <%= link_to "Preparing to Store", students_storage_prepare_to_store_path %> </li>
+      <li> <%= link_to "Storage Pricing", students_storage_storage_pricing_path %> </li>
+      <li> <%= link_to "Ship from Brown", students_storage_ship_from_brown_path %> </li>
+      <li> <%= link_to "Ship to Brown", students_storage_ship_to_brown_path %> </li>
+      <li> <%= link_to "Supplies", students_storage_supplies_path %> </li>
+      <li> <%= link_to "Pick up & Delivery", students_storage_delivery_path %> </li>
+    </ul>
+  </div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <hr>
+      <p>Storage Center will be on campus from May 9th-12th, 14th to sell boxes and packing supplies at the three main locations.</p>
+				<p>In addition, Storage Center will be on campus to collect storage items from May 15th to May 20th and supplies will also be available then.
+				<table>
+				<tr><td><u>Box Size / Supply</u></td><td><u>Cost</u></td></tr>
+				<tr><td><br></td></tr>
+				<tr><td>Small &#160&#160(16x13x13)</td><td>$2</td></tr>
+				<tr><td>Medium* &#160&#160(18x18x18)</td><td>$3</td></tr>
+				<tr><td>Large* &#160&#160(24x18x16)</td><td>$5</td></tr>
+				<tr><td>Utility Box</td><td>$5</td></tr>
+				<tr><td>Poster Tub</td><td>$2</td></tr>
+				<tr><td>Wardobe Box</td><td>$12</td></tr>
+				<tr><td>Tape</td><td>$2</td></tr>
+				<tr><td>Small Tape Guns</td><td>$2</td></tr>
+				<tr><td>Covers (mattress, sofa, etc)&#160&#160&#160&#160&#160</td><td>$3-$5</td></tr>
+				<tr><td>Marker</td><td>$1</td></tr>
+				</table></p>
+				<p>*Reusable with double walled and handles</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "storage_center_small.jpg", :width => 200 %>
+      <%= link_to "Reserve Now!", "http://storagecenter.com/?page_id=418" %>
+    </div>
+  </div>
+  
+</div>

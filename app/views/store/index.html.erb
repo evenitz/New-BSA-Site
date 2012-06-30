@@ -1,0 +1,104 @@
+<link rel="stylesheet" href="/_ui/css/plum.css?<%= Time.now.to_i %>">
+<script src="/_ui/js/jquery.plum.shop.js"></script>
+<div class="main1">
+  	<div>
+
+			<div class="clear">
+				<div class="left button" style="display:none">
+					<a id="shop" href="index.html">Continue shopping</a>
+				</div>
+				<div class="empty button">
+					<button type="button"><span title="Empty cart"></span></button>
+				</div>
+				<div class="cart-mini button big">
+					<a id="cart" href="cart.html">
+						<span>
+							<span class="cart-quantity">0</span> items in your cart<br>
+							<span class="cart-subtotal">$0.00</span> subtotal
+						</span>
+					</a>
+				</div>
+			</div>
+			<div id="page">
+
+			<ul class="clear">
+
+				<li class="product first-row"
+					data-title="Denim">
+					<a href="#"><img class="thumb" src="/_ui/images/item-001.jpg" alt=""><span></span></a>
+					<div class="clear">
+						<label class="left">Color:</label>
+						<select class="right custom-color description">
+							<option id="item-001" value="Red">Red</option>
+							<option id="item-002" value="Brown">Brown</option>
+							<option id="item-003" value="Orange">Orange</option>
+						</select>
+					</div>
+					<div class="price"><div>$32.00</div></div>
+					<div class="button"><button type="button" class="purchase">Add to cart</button></div>
+				</li><!-- end #item-001, #item-002, #item-003 -->
+
+				<li class="product first-row"
+					data-title="Black jacket"
+					data-custom-weight="23"
+					data-description="Phasellus vehicula tincidunt risus, vitae aliquet massa feugiat ut.">
+					<a href="#"><img class="thumb" src="/_ui/images/item-004.jpg" alt=""><span></span></a>
+					<div class="clear">
+						<label class="left">Size:</label>
+						<select class="right price" onchange="$(this).next().val($('option:selected', this).text().match(/(.+) \(/)[1]);">
+							<option id="item-004" value="98.00">Small ($98.00)</option>
+							<option id="item-005" value="108.00">Medium ($108.00)</option>
+							<option id="item-006" value="118.00">Large ($118.00)</option>
+						</select>
+						<input type="hidden" class="custom-size" value="small">
+					</div>
+					<div class="price"><div>$118.00</div></div>
+					<div class="button"><button type="button" class="purchase">Add to cart</button></div>
+				</li><!-- end #item-004, #item-005, #item-006 -->
+
+				<li class="product first-row last-column" id="item-007"
+					data-title="Wavy dress"
+					data-description="Vestibulum fringilla rhoncus tortor, quis consectetur ligula mollis sollicitudin.">
+					<a href="#"><img class="thumb" src="/_ui/images/item-007.jpg" alt=""><span></span></a>
+					<div class="clear">
+						<label class="left">Quantity:</label>
+						<select class="right quantity">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</div>
+					<div class="price"><div>$108.00</div></div>
+					<div class="button"><button type="button" class="purchase">Add to cart</button></div>
+				</li><!-- end #item-007 -->
+
+				<li class="product" id="item-008"
+					data-title="Cartigan"
+					data-description="Nullam a ante ante. Curabitur dolor mi, euismod in aliquam vel.">
+					<a href="#"><img class="thumb" src="/_ui/images/item-008.jpg" alt=""><span></span></a>
+					<div class="price"><div>$45.00</div></div>
+					<div class="button"><button type="button" class="purchase">Add to cart</button></div>
+				</li><!-- end #item-008 -->
+
+				<li class="product" id="item-009"
+					data-title="Purple dress"
+					data-description="In hac habitasse platea dictumst.">
+					<a href="#"><img class="thumb" src="/_ui/images/item-009.jpg" alt=""><span></span></a>
+					<div class="price"><div>$89.00</div></div>
+					<div class="button"><button type="button" class="purchase">Add to cart</button></div>
+				</li><!-- end #item-0095 -->
+
+				<li class="product last-column" id="item-010"
+					data-title="Brown jacket"
+					data-description="Donec feugiat vulputate molestie.">
+					<a href="#"><img class="thumb" src="/_ui/images/item-010.jpg" alt=""><span></span></a>
+					<div class="price"><div>$50.00</div></div>
+					<div class="button"><button type="button" class="purchase">Add to cart</button></div>
+				</li>
+
+			</ul>
+
+			</div>
+		</div>
+</div>
+<script src="/_ui/js/demo.js"></script>

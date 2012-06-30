@@ -1,0 +1,55 @@
+<div id="tabs">
+ <%= render 'student_services_tab' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Storage Pricing </h1>
+  </div>
+
+  <div id="tab_navigation">
+    <ul>
+      <li> <%= link_to "Preparing to Store", students_storage_prepare_to_store_path %> </li>
+      <li> <%= link_to "Storage Pricing", students_storage_storage_pricing_path %> </li>
+      <li> <%= link_to "Ship from Brown", students_storage_ship_from_brown_path %> </li>
+      <li> <%= link_to "Ship to Brown", students_storage_ship_to_brown_path %> </li>
+      <li> <%= link_to "Supplies", students_storage_supplies_path %> </li>
+      <li> <%= link_to "Pick up & Delivery", students_storage_delivery_path %> </li>
+    </ul>
+  </div>
+
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <hr>
+      <p><u>Storage Units</u></p>
+				<p>$229 - Option 1: 5x5 unit, accommodates 15 items<br>
+				$389 - Option 2: 5x10 unit, accommodates 30 items</p>
+				<p>An item is considered as anything you can pick up such as a box, suitcase, lamp, mirror, etc. Mattress, box springs, and furniture are considered 2 items.</p>
+				<p>Additional items beyond the storage unit limit will cost and additional $15/item. All storage units include $200 insurance.</p> 
+
+				<p><u>Individual Items</u></p>
+				<p>$25/item - Basic Items: box, tub, suitcase, duffle bag, mini-fridge, rug, microwave, plastic drawers<br>
+				$50/item - Large Items: wardrobe box, couch, mattress, futon, box spring, furniture, full size fridge</p>
+				<p>Items are only charged individually if the total is less than $229 for the summer.</p>
+				
+				<p><u>Additional Plans</u></p>
+				<p>Long Term Storage through January 30, 2013
+				<ul>
+					<li>Storage Unit Option 1 - additional $40/month</li>
+					<li>Storage Unit Option 2 - additional $70/month</li>
+					<li>Several Individual Items - additional $25/month</li>
+				</ul></p>
+				<p>Short Term Storage through June 30, 2013
+				<ul>
+					<li>Storage Unit Option 1 - $80 + $25 delivery fee</li>
+					<li>Storage Unit Option 2 - $150 + $25 delivery fee</li>
+				</ul>
+				<br>Delivery charge is the same for short term storage regardless of whether you live on or off campus.</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "storage_center_small.jpg", :width => 200 %>
+      <%= link_to "Reserve Now!", "http://storagecenter.com/?page_id=418" %>
+    </div>
+  </div>
+  
+</div>

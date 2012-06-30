@@ -1,0 +1,44 @@
+<div id="tabs">
+ <%= render 'student_services_tab' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Preparation and Packaging </h1>
+  </div>
+  <div id="tab_navigation">
+    <ul>
+      <li> <%= link_to "Preparing to Store", students_storage_prepare_to_store_path %> </li>
+      <li> <%= link_to "Storage Pricing", students_storage_storage_pricing_path %> </li>
+      <li> <%= link_to "Ship from Brown", students_storage_ship_from_brown_path %> </li>
+      <li> <%= link_to "Ship to Brown", students_storage_ship_to_brown_path %> </li>
+      <li> <%= link_to "Supplies", students_storage_supplies_path %> </li>
+      <li> <%= link_to "Pick up & Delivery", students_storage_delivery_path %> </li>
+    </ul>
+  </div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+    <hr>
+<p>Please <u>LABEL</u> all boxes and items. Make sure your name is on EVERY item stored.</p>
+        <p><u>For students storing together:</u>
+        <ul>
+          <li>Designate ONE primary student contact</li>
+          <li>All items must be labeled with the name of the primary student contact</li>
+          <li>Storage Center will only allow one pickup and one drop-off for all items</li>
+          <li>The group must bring all goods to the same drop off location at the same drop-off reservation time</li>
+          <li>If someone forgets to bring an item to the reserved location and time, there will be an additional $15 charge per item</li>
+        </ul></p>
+        <p><u>Packaging</u></p>
+        <p>Storage Center strongly recommends students to pack all items in a box, plastic storage containers, suitcases, duffle bags, trunks, totes, and or other storage containers which can be taped and labeled with primary contact's name.</p>
+        <p>Storage Center will NOT accept loose items or goods in a trash bag.</p>
+        <p>Significantly valuable possessions should be stored in unmarked boxes.</p>
+        <p>DEFROST all refrigerators. Otherwise you will be charged $25.</p>
+        <p>Storage Center will NOT accept any detergent or food, including dry, boxed, or bagged food (canned items are okay).</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "storage_center_small.jpg", :width => 200 %>
+      <%= link_to "Reserve Now!", "http://storagecenter.com/?page_id=418" %>
+      <%= link_to "FAQs(add)" %>
+    </div>
+  </div>
+</div>

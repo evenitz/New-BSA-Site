@@ -1,0 +1,43 @@
+<div class="main">
+	<h2>View Tickets for <%= User.find_by_ref(params[:id]).name %> <a href="/mikey/lingkepoo/">(Back)</a></h2>
+	    <div class="tabs">
+	      <h3 style="padding-top:25px;margin-left:25px;font-size:24px;">Ticket List</h3>
+	      <table id="box-table-a" summary="Tickets Scanned">
+            <thead>
+            	<tr>
+                	<th scope="col">ID</th>
+                    <th scope="col">Pass ID</th>
+                    <th scope="col">Event ID</th>
+                    <th scope="col">Entries Available</th>
+                    <th scope="col">Mailed</th>
+                    <th scope="col">Change</th>
+                </tr>
+            </thead>
+            <tbody>
+               <%- unless @tickets.blank? -%>
+              <%- for t in @tickets -%>
+            	<tr>
+                	<td <%- if t.entries_available <= 0 -%>style="background-color:red;color:#fff"<%- end -%>><%= t.ref %></td>
+                	 <form action="/mikey/update/<%= t.ref %>" name="edit<%= t.id %>" method="get">
+                    <td><input type="text" name="pass_id" id="pid" value="<%= h t.pass_id %>"  style="padding:5px;border:1px solid #ccc;" size="3" /></td>
+                    <td><input type="text" name="event_id" id="eid" value="<%= h t.event_id %>"  disabled="true" style="padding:5px;border:1px solid #ccc;" size="3" /></td>
+                    <td><input type="text" name="entries_available" id="avail" value="<%= h t.entries_available %>"  style="padding:5px;border:1px solid #ccc;" size="3" /></td>
+                    <td><input type="text" name="mailed" id="mailed" value="<%= h t.mailed %>"  style="padding:5px;border:1px solid #ccc;" size="3" /></td>
+                    <td><a href="javascript:void(0)" onclick="document.forms.edit<%= t.id %>.submit()">Update</a></td>
+                    </form>
+                </tr>
+                <%- end -%>
+                        <%- end -%>
+                       	<tr>
+                            	<td>--</td>
+                            	 <form action="/mikey/new/<%= params[:id] %>" name="new" method="get">
+                                <td><input type="text" name="pass_id" id="pid" value="8"  style="padding:5px;border:1px solid #ccc;" size="3" /></td>
+                                <td>--</td>
+                                <td>--</td>
+                                <td><input type="text" name="mailed" id="mailed" value="-2"  style="padding:5px;border:1px solid #ccc;" size="3" /></td>
+                                <td><a href="javascript:void(0)" onclick="document.forms.new.submit()">New</a></td>
+                            </tr>
+            </tbody>
+        </table>
+	    </div>
+</div>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brown Student Agencies</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <%= stylesheet_link_tag "bootstrap-responsive.css" %>
+    <%= stylesheet_link_tag "bootstrap.css" %>
+    <%= stylesheet_link_tag "main.css" %>
+    <%= javascript_include_tag "slides.min.jquery.js" %>
+    <%= javascript_include_tag "main.js" %>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="body_container">
+      <%= render 'layouts/header' %>
+      <div id="home_container">
+<div id="container">
+
+  <div class="featured">
+<div id="slides">
+<div class="slides_container">
+<!-- BEGIN SLIDE LISTS -->
+
+<!-- SLIDE 1 Sublet Directory -->
+
+<div>
+<div class="image">
+<%= image_tag "bsa_house.png", :width => "230px" %>
+</div>
+<div class="details">
+<h2>BSA Sublet Directory Now Live!</h2>
+<p class="details_p_first">BSA has partnered with JumpOffCampus (JOC) to offer students the opportunity to list and browse sublets for the summer. Using Google Maps as a foundation, JOC allows you to visually see where sublets are offered, what their prices and availability dates are, and more! </p>
+<p>So, what are you waiting for? Click the link below to browse the directory or post your summer sublet today.</p>
+<a class="btn" href="http://bsa.jumpoffcampus.com/">Learn More</a>
+</div>
+</div>
+<!-- END SLIDE 1 BSA INSPIRE -->
+
+<!-- SLIDE 2 BSA OPPORTUNITIES -->
+
+<div>
+<div class="image">
+<%= image_tag "brown_slide_logo.png", :height => "230px" %>
+</div>
+<div class="details">
+<h2>Summer Programs</h2>
+<p class="details_p_first"> Are you a summer student? BSA continues to provide services to those at Brown during the summer months. Check out our range of options to make your summer the best it can be. </p>
+<a class="btn" href="/summer">Learn More</a>
+</div>
+</div>
+<!-- END SLIDE 2 BSA OPPORTUNITIES -->
+
+<!-- SLIDE 3 Marketplace -->
+
+<div>
+<div class="image">
+<%= image_tag "bsa_site_logo.png", :width => "230px" %>
+</div>
+<div class="details">
+<h2>Brown Marketplace</h2>
+<p class="details_p_first">Got a product or event you want to sell? Let BSA handle all of the logistics so you can focus on what's important!</p> 
+<p>The Brown Marketplace is the official application serving all University student groups, offering secure transactions to both the Brown community and the general public.</p>
+
+<a class="btn" href="https://payment.brown.edu/C20460_ustores/web/store_main.jsp?STOREID=2&SINGLESTORE=true">Learn More</a>
+</div>
+</div>
+
+<!--END SLIDE 3 Squid Scanner Access Control -->
+</div>
+</div>
+<!-- END SLIDE LIST -->
+</div>
+            
+        <!--      <div id="featured_image">
+  <-%= link_to image_tag("bsa_house.png", :height => "230px"), "http://bsa.jumpoffcampus.com/" %>
+</div>
+    <div id="featured_content">
+      <h1> BSA Sublet Directory is Live </h1>
+      <p> BSA has partnered with JumpOffCampus (JOC) to offer students the opportunity to list and browse sublets for the summer. Using Google Maps as a foundation, JOC allows you to visually see where sublets are offered, what their prices and availability dates are, and more! <p/>
+      <p> So, what are you waiting for? Click the link below to browse the directory or post your summer sublet today. </p>
+      <a class="btn" href="http://bsa.jumpoffcampus.com/">Learn More</a>
+    </div>
+  </div>-->
+    
+  <div id="feed_content">
+    
+    <!-- switch to content from a live feed? -->
+   <h2>Summer Products</h2>
+   <p>We want our summer students to get the most out of their summer. That's why BSA is here to provide summer students with a variety of services and amenities so that they can focus on having a great experience.</p>
+   <p> Check out BSA's <%= link_to "summer services", summer_path %>. </p>
+  </div>
+
+</div>
+
+      </div>
+      <%= render 'layouts/footer' %>
+    </div>
+  </body>
+</html>
+

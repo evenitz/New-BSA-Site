@@ -1,0 +1,29 @@
+<div id="tabs">
+  <%= render 'community_tabs' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Past Events </h1>
+  </div>
+
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <p>In Spring 2012, BSA was proud to be a major financial sponsor for China Care's Benefit Showcase. We celebrated our communities of family with children from China</p>
+				<p>Together, we were able to raise over $8000 that went towards funding surgeries for orphans in China.</p>
+				<p>--------------------------------------</p>
+				<p>In Fall 2011, BSA sponsored the 4th Annual Dash for Diabetes event. Diabetes is the seventh leading cause of death in the United States, and with this race we came one step closer to promoting healthy lifestyles and curing a condition that affects more than 23 million Americans.</p>
+				<p>With the help of the Brown and Providence community, we raised more than $3000 to fund diabetes research. <a href="http://students.brown.edu/dash/cause.html">Learn more</a> about our cause.</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "backup.png" %>
+    </div>
+  </div>
+  <div id="tab_navigation">
+    <ul>
+      <li><%= link_to "About our Locations", biz_locations_path %> </li>
+      <li><%= link_to "How it Works", biz_how_it_works_path %> </li>
+      <li><%= link_to "Terms & Guidlines", biz_terms_path %> </li>
+    </ul>
+  </div>
+</div>

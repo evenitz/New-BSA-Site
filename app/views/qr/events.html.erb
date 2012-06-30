@@ -1,0 +1,12 @@
+<events>
+<%- for e in @events -%>
+<event>
+  <eventid><%= e.id %></eventid>
+  <date><%= e.starts.strftime("%Y-%m-%d") %></date>
+  <name><%= h e.name %></name>
+</event>
+<%- end -%>
+<%- if @events.blank? or (params[:u] == "squid" and params[:p] != "scan") -%>
+0
+<%- end -%>
+</events>

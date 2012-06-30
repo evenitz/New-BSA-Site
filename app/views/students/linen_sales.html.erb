@@ -1,0 +1,24 @@
+<div id="tabs">
+  <%= render "student_services_tab" %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Tuck in to Fine Linens </h1>
+  </div>
+
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <h2 style="font-size: 20px"> <span style="color:red">PLEASE NOTE: </span>Linen purchases through Residence Hall Linens are for INCOMING FRESHMAN ONLY. If you are a Summer@Brown Student and are interested in renting linens during your stay, <%= link_to "please click", summer_laundry_path, :class => "urgent_link" %> here to be redirected to the linens and laundry rental page. </h2>
+      <p>BSA has partnered with Residence Hall Linens to provide Brown University students and families with a convenient, affordable way to ensure you have sheets that will fit the extra-long mattresses in our residence halls.</p>
+      <p>The Residence Hall Linens program has all your campus living needs, from extra long twin sheets and comforters to matching towels and storage items.</p>
+      <p>Linens can be delivered to your home or to Brown for pick up on the day of your arrival. Order now for the best selection - popular colors can sell out quickly!</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "linens.jpg", :width => 200 %>
+      <%= link_to "Order Now!", "http://www.rhl.org/brn" %>
+    </div>
+  </div>
+  <div id="tab_navigation">
+  </div>
+</div>

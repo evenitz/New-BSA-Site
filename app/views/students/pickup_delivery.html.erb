@@ -1,0 +1,45 @@
+<div id="tabs">
+  <%= render 'student_services_tab' %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Pick Up & Delivery </h1>
+  </div>
+  <div id="tab_navigation">
+    <ul>
+      <li> <%= link_to "Preparing to Store", students_storage_prepare_to_store_path %> </li>
+      <li> <%= link_to "Storage Pricing", students_storage_storage_pricing_path %> </li>
+      <li> <%= link_to "Ship from Brown", students_storage_ship_from_brown_path %> </li>
+      <li> <%= link_to "Ship to Brown", students_storage_ship_to_brown_path %> </li>
+      <li> <%= link_to "Supplies", students_storage_supplies_path %> </li>
+      <li> <%= link_to "Pick up & Delivery", students_storage_delivery_path %> </li>
+    </ul>
+  </div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <hr>
+      <p><u>On Campus Locations</u></p>
+				<p>Pick up and delivery is FREE at one of the three main on-campus locations.</p>
+				<ul>
+					<li>Charlesfield & Thayer (near Watson Institute)</li>
+					<li>Brown & Benevolent (Keeney Quad)</li>
+					<li>Meeting Street (in front of the V-Dub)</li>
+				</ul></p>
+				<p>Moving help is available at $20/hr for two men at one of the main locations.</p>
+				<p><u>Off-Campus Locations</u></p>
+				<p>Curbside pick up is FREE. Drop off is a $50 charge. Any extra pick up or drop off is a $50 charge.</p>
+				<p>Moving help is available at 
+				<ul>
+					<li>$50/hr for two men that is on the 1st/2nd floor or has an elevator</li>
+					<li>$75/hr for two men that is on the 3rd/4th floor and has no elevator</li>
+				</ul></p>
+				<p>Please note that for SHORT TERM storage plans only, pick up and drop off fee is a flat $25 regardless of whether you are on or off campus.</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "storage_center_small.jpg", :width => 200 %>
+      <%= link_to "Reserve Now!", "http://storagecenter.com/?page_id=418" %>
+    </div>
+  </div>
+  
+</div>

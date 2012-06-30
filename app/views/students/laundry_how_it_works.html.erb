@@ -1,0 +1,41 @@
+<div id="tabs">
+  <%= render "student_services_tab" %>
+</div>
+
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> How it Works </h1>
+  </div>
+   <div id="tab_navigation">
+    <ul>
+      <li> <%= link_to "How it Works", students_laundry_how_it_works_path %> </li>
+    </ul>
+  </div>
+
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <hr>
+      <p>Customers can drop off and pick up their laundry bag at the BSA Laundry Room in Campus Center 035. Customers can swipe in with their Brown ID. If you are a customer and cannot access the room, please email bsa@brown.edu with your Brown ID.</p>
+				<p>The location is monitored 24/7 by a security camera, and the card swipe records all entries made.</p>
+				<p><u>BSA Laundry Room Hours:</u><br>
+				Monday - Friday: 7:30 AM - 11:00 PM<br>
+				Saturday - Sunday: 8:30 AM - 11:00 PM
+				</p>
+				<p>E&R provides weekly pick-up and delivery service according to the following schedule:</p>
+				<table>
+				<tr><td>If your dirty clothes are dropped off...</td><td>Your clean clothes can be picked up by...</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td>Before Monday at noon</td><td>Wednesday at 2PM</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td>After Monday at noon and before Wednesday at noon</td><td>Friday at 2 PM</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td>After Wednesday at noon</td><td>the following Wednesday at 2 PM</td></tr>
+				</table><br>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "laundry2.jpg", :width => 200 %>
+      <%= link_to "Order Now!" , "http://www.thecampuslaundry.com" %>
+    </div>
+  </div>
+  <div id="tab_navigation">
+  </div>

@@ -1,0 +1,41 @@
+<div id="tabs">
+ <%= render 'student_services_tab' %>
+</div>
+<div id="tab_content_container">
+  <div id="tab_content_title">
+    <h1> Summer Storage & Shipping </h1>
+  </div>
+
+<div id="tab_navigation">
+  <ul>
+    <li> <%= link_to "Preparing to Store", students_storage_prepare_to_store_path %> </li>
+    <li> <%= link_to "Storage Pricing", students_storage_storage_pricing_path %> </li>
+    <li> <%= link_to "Ship from Brown", students_storage_ship_from_brown_path %> </li>
+    <li> <%= link_to "Ship to Brown", students_storage_ship_to_brown_path %> </li>
+    <li> <%= link_to "Supplies", students_storage_supplies_path %> </li>
+    <li> <%= link_to "Pick up & Delivery", students_storage_delivery_path %> </li>
+  </ul>
+</div>
+  <div id="tab_content">
+    <div id="tab_content_text">
+      <hr>
+      <p>BSA partners with Storage Center to offer students an exclusive storage and shipping deal. In May, Storage Center will be around campus selling supplies and taking items for storage and shipping. All belongings are stored in a secure facility for the summer until return to campus in the Fall. Storage Center brings back all possessions and minimizes the work for students.</p>
+				<p>Storage Center will again set up three main on-campus locations for students to drop off items.
+				<ul>
+					<li>Charlesfield & Thayer (near Watson Institute)</li>
+					<li>Brown & Benevolent (Keeney Quad)</li>
+					<li>Meeting Street (in front of the V-Dub)</li>
+				</ul></p>
+				<p>Storage Center will be on campus May 9th-12th, 14th to sell boxes and supplies and to answer questions students may have.</p>
+				<p>Storage Center will be on campus starting May 15th through May 20th to accept items.</p>
+				<p><u>Online Registration</u></p>
+				<p>All students must reserve online his/her desired drop-off location from one of three locations and what time of the day is most convenient -- either morning or afternoon.  Other drop-off locations are also listed on the website if needed.</p>
+				<p>Once complete you will be given an ID number.  With this ID number you can make any changes to your reservation on line.  Also, you will use this ID number when referencing your reservation with Storage Center.</p>
+    </div>
+    <div id="tab_content_image">
+      <%= image_tag "storage_center_small.jpg", :width => 200 %>
+      <%= link_to "Reserve Now!", "http://storagecenter.com/?page_id=418" %>
+    </div>
+  </div>
+
+</div>

@@ -89,6 +89,10 @@ header ul {
   margin-right: 10px;
 }
 
+.selected_nav_link {
+  color: rgb(70, 23, 0);
+}
+
 #main_container {
   background-color: white;
   box-shadow: 13px 13px 5px #888888;
@@ -119,6 +123,10 @@ header ul {
 
 #tabs a {
   font-size: 18px;
+}
+
+.active_tab a {
+  color: rgb(70, 23, 0);
 }
 
 #tab_content_container {
@@ -167,6 +175,15 @@ header ul {
 
 #tab_content_image a {
   margin-left: 40px;
+}
+
+#tab_navigation {
+}
+
+#tab_navigation li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 footer {

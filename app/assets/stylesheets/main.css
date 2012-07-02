@@ -42,6 +42,27 @@ header ul {
   /*background-color: white;*/
 }
 
+#home_container {
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.slides_container {
+  height: 400px;
+}
+
+.image {
+  float: left;
+}
+
+.details {
+  float: left;
+}
+
 #navigation {
   border-bottom: solid;
   margin-left: 100px;
@@ -82,6 +103,7 @@ header ul {
   border-width: 5px;
   padding-right: 30px;
   margin-right: 70px;
+  margin-left: 20px;
 }
 
 #tabs ul {
@@ -127,7 +149,13 @@ header ul {
   float: left;
   margin-left: 40px;
   margin-top: 100px;
-  border: solid 10px;
+}
+
+#tab_content_image img {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #tab_content_image a {

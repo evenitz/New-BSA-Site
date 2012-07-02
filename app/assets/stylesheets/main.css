@@ -149,6 +149,7 @@ header ul {
   float: left;
   margin-left: 40px;
   margin-top: 100px;
+  text-align: center;
 }
 
 #tab_content_image img {
@@ -156,6 +157,10 @@ header ul {
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#tab_content_image a {
+  font-size: 20px;
 }
 
 #tab_content_image a {
@@ -172,11 +177,13 @@ footer {
 
 footer p {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 #footer_logo {
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 100px;
 }
+

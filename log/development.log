@@ -38098,3 +38098,1774 @@ Served asset /brown_logo.png - 304 Not Modified (0ms)
 
 Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 14:35:32 -0400
 Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:06:52 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (4.8ms)
+  Rendered students/backup_software.html.erb within layouts/application (20.6ms)
+Compiled main.css  (64ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 199ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /main.css - 200 OK (5ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:06:53 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:06:54 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.0ms)
+Compiled main.css  (33ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:01 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:02 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:07:02 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.8ms)
+Compiled main.css  (57ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:06 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:10 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:11 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/package" for 127.0.0.1 at 2012-07-09 17:07:13 -0400
+Processing by StudentsController#care_packages as HTML
+  Rendered students/_student_services_tab.html.erb (3.8ms)
+  Rendered students/care_packages.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:14 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:14 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:14 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:14 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:14 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Care_Package2.jpg" for 127.0.0.1 at 2012-07-09 17:07:14 -0400
+Served asset /Care_Package2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:14 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:14 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:15 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/groups/billboards" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+Processing by GroupsController#billboards as HTML
+  Rendered groups/_student_groups_tab.html.erb (1.4ms)
+  Rendered groups/billboards.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/_media/images/billboards.png" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+
+ActionController::RoutingError (No route matches [GET] "/_media/images/billboards.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ethanvenitz/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ethanvenitz/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ethanvenitz/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ethanvenitz/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:16 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:07:17 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:08:52 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.4ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.2ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 49ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:08:52 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:08:52 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:08:52 -0400
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:08:52 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:08:52 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:08:52 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:08:52 -0400
+Served asset /bsa_button.png - 200 OK (19ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:08:53 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:08:53 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:08:53 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.5ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.2ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 47ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Served asset /main.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:09:04 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:09:45 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/package" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Processing by StudentsController#care_packages as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/care_packages.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Care_Package2.jpg" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Served asset /Care_Package2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:09:51 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:09:52 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.4ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:53 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:53 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:09:53 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:09:53 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:09:53 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:09:53 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:09:53 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:09:53 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/marketplace" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Processing by StudentsController#marketplace as HTML
+  Rendered students/_student_services_tab.html.erb (3.4ms)
+  Rendered students/marketplace.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/linen" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Processing by StudentsController#linen_sales as HTML
+  Rendered students/_student_services_tab.html.erb (3.8ms)
+  Rendered students/linen_sales.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:03 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:10:04 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-09 17:10:04 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:10:04 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/linen" for 127.0.0.1 at 2012-07-09 17:10:17 -0400
+Processing by StudentsController#linen_sales as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/linen_sales.html.erb within layouts/application (3.0ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 73ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:17 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:17 -0400
+Served asset /main.css - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:17 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:17 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:17 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:10:17 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:10:18 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:10:18 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-09 17:10:18 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:10:18 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/linen" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Processing by StudentsController#linen_sales as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/linen_sales.html.erb within layouts/application (3.0ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:10:21 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/linen" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Processing by StudentsController#linen_sales as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/linen_sales.html.erb within layouts/application (3.1ms)
+Compiled main.css  (59ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:10:24 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:10:30 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.5ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:30 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:30 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:10:30 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:30 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:10:30 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:10:31 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:10:31 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:10:31 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:10:31 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:10:31 -0400
+Served asset /bsa_button.png - 200 OK (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:10:36 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:11:05 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+Compiled main.css  (33ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:05 -0400
+Served asset /main.css - 200 OK (5ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:05 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:05 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:05 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:05 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:11:06 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:11:06 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:11:06 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:11:06 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:11:06 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.5ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:11:07 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:11:08 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.8ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /main.css - 200 OK (5ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:11:19 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:11:38 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+Compiled main.css  (59ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:11:39 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:11:41 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.8ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:11:52 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:12:02 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (28.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (29.0ms)
+Compiled main.css  (33ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:02 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:02 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:02 -0400
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:02 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:02 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:12:03 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:12:03 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:12:03 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:12:03 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:12:03 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.0ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:12:07 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:12:08 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (26.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:08 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:08 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:08 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:08 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:08 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:12:09 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:12:09 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:12:09 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:12:09 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:12:09 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.0ms)
+Compiled main.css  (33ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:12:13 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/backup_software.html.erb within layouts/application (2.9ms)
+Compiled main.css  (33ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /main.css - 200 OK (29ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:12:23 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:12:27 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.4ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.2ms)
+Compiled main.css  (33ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:27 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:27 -0400
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:12:27 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:27 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:12:27 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:12:27 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:12:27 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:12:28 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:12:28 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:12:28 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:13:15 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.0ms)
+Compiled main.css  (34ms)  (pid 692)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:15 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:15 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:15 -0400
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:13:15 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:13:15 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:13:15 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:13:15 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:13:16 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:13:16 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:13:16 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/linen" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Processing by StudentsController#linen_sales as HTML
+  Rendered students/_student_services_tab.html.erb (2.4ms)
+  Rendered students/linen_sales.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top_banner-4.png" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /top_banner-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_button.png" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /bsa_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:13:23 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/summer" for 127.0.0.1 at 2012-07-09 17:13:25 -0400
+Processing by StudentsController#summer as HTML
+  Rendered students/_student_services_tab.html.erb (2.2ms)
+  Rendered students/summer.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:25 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:25 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:25 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:13:25 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:13:25 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:13:25 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:13:25 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/students/backup" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Processing by StudentsController#backup_software as HTML
+  Rendered students/_student_services_tab.html.erb (2.3ms)
+  Rendered students/backup_software.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.min.jquery.js?body=1" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Served asset /slides.min.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/brown_logo.png" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Served asset /brown_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backup.png" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Served asset /backup.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bsa_site_logo.png" for 127.0.0.1 at 2012-07-09 17:13:26 -0400
+Served asset /bsa_site_logo.png - 304 Not Modified (0ms)

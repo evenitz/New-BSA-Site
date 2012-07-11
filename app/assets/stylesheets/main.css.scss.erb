@@ -2,11 +2,15 @@ $light_tan: #D9CEB2;
 $cardinal_red: rgb(215, 4, 18);
 $brown: #320000;
 $red: rgb(166, 70, 70);
+$top_blue: rgb(197, 225, 250);
+$bottom_blue: rgb(232, 245, 252);
 
 body {
   background-color: #ccc;
   background-color: rgb(232, 245, 252);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(197, 225, 250)), to(rgb(232, 245, 252)));
+  background: -webkit-gradient(linear, left top, left bottom, from($top_blue), to($bottom_blue));
+  background: -moz-linear-gradient(top,  $top_blue,  $bottom_blue);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$top_blue, endColorstr=$bottom_blue);
 }
 
 p {

@@ -5,7 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <%= stylesheet_link_tag "bootstrap-responsive.css" %>
     <%= stylesheet_link_tag "bootstrap.css" %>
-    <%= stylesheet_link_tag "main.css" %>
+    <%= stylesheet_link_tag "main" %>
     <%= javascript_include_tag "slides.min.jquery.js" %>
     <%= javascript_include_tag "main.js" %>
     <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
@@ -86,9 +86,17 @@
   <div id="feed_content">
     
     <!-- switch to content from a live feed? -->
-   <h2>Summer Products</h2>
-   <p>We want our summer students to get the most out of their summer. That's why BSA is here to provide summer students with a variety of services and amenities so that they can focus on having a great experience.</p>
-   <p> Check out BSA's <%= link_to "summer services", summer_path %>. </p>
+    <div id="left_feed_column">
+     <h2>Summer Products</h2>
+     <p>We want our summer students to get the most out of their summer. That's why BSA is here to provide summer students with a variety of services and amenities so that they can focus on having a great experience.</p>
+     <p> Check out BSA's <%= link_to "summer services", summer_path %>. </p>
+   </div>
+   <div id="right_feed_column">
+    <h2> BSA Sublet Directory is Live </h2>
+    <p> BSA has partnered with JumpOffCampus (JOC) to offer students the opportunity to list and browse sublets for the summer. Using Google Maps as a foundation, JOC allows you to visually see where sublets are offered, what their prices and availability dates are, and more! <p/>
+    <p> So, what are you waiting for? Click the link below to browse the directory or post your summer sublet today. </p>
+    <a class="btn" href="http://bsa.jumpoffcampus.com/">Learn More</a>
+   </div>
   </div>
 
 </div>

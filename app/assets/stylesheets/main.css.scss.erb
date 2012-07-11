@@ -4,6 +4,7 @@ $brown: #320000;
 $red: rgb(166, 70, 70);
 $top_blue: rgb(197, 225, 250);
 $bottom_blue: rgb(232, 245, 252);
+$light_brown: rgb(75, 35, 27);
 
 body {
   background-color: #ccc;
@@ -29,7 +30,7 @@ header {
   background-color: white;
   border: solid 3px;
   border-color: #888;
-  padding-bottom: 1px;
+  //padding-bottom: 1px;
   margin-bottom: 25px;
   box-shadow: 13px 13px 5px #888888;
   font-size: 20px;
@@ -139,14 +140,19 @@ header ul {
 
 #navigation {
   border-bottom: solid;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 15px;
-  padding-top: 20px;
-  padding-left: 90px;
+  //margin-left: 80px;
+  //margin-right: 80px;
+  //margin-bottom: 15px;
+  padding-top: 30px;
+  padding-left: 170px;
   padding-right: 90px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   border-width: 2px;
+  background-color: $light_brown;
+}
+
+#navigation a {
+  color: white;
 }
 
 #nav_menu {
@@ -157,6 +163,7 @@ header ul {
 .summer {
   border-left: solid 2px;
   border-color: $brown;
+  border-color: white;
   padding-left: 20px;
 }
 
@@ -172,6 +179,7 @@ header ul {
 
 .selected_nav_link {
   color: rgb(70, 23, 0);
+  text-decoration: underline;
 }
 
 #main_container {

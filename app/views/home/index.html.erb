@@ -6,10 +6,10 @@
     <%= stylesheet_link_tag "bootstrap-responsive.css" %>
     <%= stylesheet_link_tag "bootstrap.css" %>
     <%= stylesheet_link_tag "main" %>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
     <%= javascript_include_tag "slides.min.jquery.js" %>
     <%= javascript_include_tag "main.js" %>
     <%= javascript_include_tag "bootstrap.min.js" %>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
     <%= csrf_meta_tags %>
   </head>
   <body>
@@ -89,11 +89,14 @@
                 <p>We want our summer students to get the most out of their summer. That's why BSA is here to provide summer students with a variety of services and amenities so that they can focus on having a great experience.</p>
                 <p> Check out BSA's <%= link_to "summer services", summer_path %>. </p>
               </div>
+              <div id="middle_feed_column">
+                <h2> BSA Laundry Service </h2>
+                <p> Incoming freshman? Starting college can be stressful. Let us do our part to help ease your transition with our campus laundry service so you have one less thing to worry about as you enjoy your college experience. Returning student? Tired of dealing with broken or full laundry machines? Too busy to do your laundry? Check out our <%= link_to "campus laundry service", students_laundry_path %> now. </p>
+              </div>
               <div id="right_feed_column">
-                <h2> BSA Sublet Directory is Live </h2>
+                <h2> BSA Sublet Directory </h2>
                 <p> BSA has partnered with JumpOffCampus (JOC) to offer students the opportunity to list and browse sublets for the summer. Using Google Maps as a foundation, JOC allows you to visually see where sublets are offered, what their prices and availability dates are, and more! <p/>
-               <p> So, what are you waiting for? Click the link below to browse the directory or post your summer sublet today. </p>
-               <a class="btn" href="http://bsa.jumpoffcampus.com/">Learn More</a>
+               <p> So, what are you waiting for? <%= link_to "Browse the directory", "http://bsa.jumpoffcampus.com/" %> or post your summer sublet today. </p>
              </div>
            </div>
          </div>

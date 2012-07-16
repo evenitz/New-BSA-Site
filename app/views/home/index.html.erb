@@ -63,23 +63,13 @@
               </div>
           <!-- END SLIDE LIST -->
             </div>
+            <div id="service_list">
+              <h3> BSA Services </h3>
+              <%= render "service_tab" %>
+            </div>
             <div id="news_content">
               <h1> Brown Student Agencies News</h1>
-              <div class="tabbable tabs-left" id="news_nav">
-                <ul class="nav nav-tabs">
-                  <li class="active"><a href="#tab1" data-toggle="tab">General News</a></li>
-                  <li><a href="#tab2" data-toggle="tab">Events</a></li>
-                  <li><a href="#tab3" data-toggle="tab">Backup Software</a></li>
-                  <li><a href="#tab4" data-toggle="tab">Care Packaages</a></li>
-                  <li><a href="#tab5" data-toggle="tab">Laundry Services</a></li>
-                  <li><a href="#tab6" data-toggle="tab">Marketplace</a></li>
-                  <li><a href="#tab7" data-toggle="tab">Microfridge</a></li>
-                  <li><a href="#tab8" data-toggle="tab">Storage & Shipping</a></li>
-                  <li><a href="#tab9" data-toggle="tab">Sublet Directory</a></li>
-                </ul>
-                <div class="tab-content">
-                    <%= render "news_content" %>
-                </div>
+                <%= render "news_content" %>
               </div> 
             </div>
             <div id="feed_content">
@@ -100,8 +90,8 @@
              </div>
            </div>
          </div>
-       </div>
-       <%= render 'layouts/footer' %>
+         <%= render 'layouts/footer' %>
+      </div>
     </div>
   </body>
 </html>

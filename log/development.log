@@ -93440,3 +93440,135 @@ Served asset /linens.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/fridge.png" for 127.0.0.1 at 2012-07-18 13:23:07 -0400
 Served asset /fridge.png - 304 Not Modified (0ms)
+
+
+Started GET "/emails/one" for 127.0.0.1 at 2012-07-18 13:30:02 -0400
+Processing by EmailTemplatesController#email_one as HTML
+  Rendered email_templates/email_one.html.erb (1.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-18 13:30:03 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fridge.png" for 127.0.0.1 at 2012-07-18 13:30:03 -0400
+Served asset /fridge.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/email_banner.png" for 127.0.0.1 at 2012-07-18 13:30:03 -0400
+Served asset /email_banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/laundry2.jpg" for 127.0.0.1 at 2012-07-18 13:30:03 -0400
+Served asset /laundry2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/emails/two" for 127.0.0.1 at 2012-07-18 13:30:53 -0400
+Processing by EmailTemplatesController#email_two as HTML
+  Rendered email_templates/email_two.html.erb (1.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fridge.png" for 127.0.0.1 at 2012-07-18 13:30:53 -0400
+Served asset /fridge.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/email_banner.png" for 127.0.0.1 at 2012-07-18 13:30:53 -0400
+Served asset /email_banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/laundry2.jpg" for 127.0.0.1 at 2012-07-18 13:30:53 -0400
+Served asset /laundry2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-18 13:30:53 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/emails/two" for 127.0.0.1 at 2012-07-18 13:31:17 -0400
+Processing by EmailTemplatesController#email_two as HTML
+  Rendered email_templates/email_two.html.erb (1.2ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/email_banner.png" for 127.0.0.1 at 2012-07-18 13:31:17 -0400
+Served asset /email_banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fridge.png" for 127.0.0.1 at 2012-07-18 13:31:17 -0400
+Served asset /fridge.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/laundry2.jpg" for 127.0.0.1 at 2012-07-18 13:31:17 -0400
+Served asset /laundry2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-18 13:31:17 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/emails/two" for 127.0.0.1 at 2012-07-18 13:31:30 -0400
+Processing by EmailTemplatesController#email_two as HTML
+  Rendered email_templates/email_two.html.erb (1.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/laundry2.jpg" for 127.0.0.1 at 2012-07-18 13:31:30 -0400
+Served asset /laundry2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-18 13:31:30 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fridge.png" for 127.0.0.1 at 2012-07-18 13:31:30 -0400
+Served asset /fridge.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/email_banner.png" for 127.0.0.1 at 2012-07-18 13:31:30 -0400
+Served asset /email_banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/emails/one" for 127.0.0.1 at 2012-07-18 13:32:03 -0400
+Processing by EmailTemplatesController#email_one as HTML
+  Rendered email_templates/email_one.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/email_banner.png" for 127.0.0.1 at 2012-07-18 13:32:03 -0400
+Served asset /email_banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-18 13:32:03 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/laundry2.jpg" for 127.0.0.1 at 2012-07-18 13:32:03 -0400
+Served asset /laundry2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fridge.png" for 127.0.0.1 at 2012-07-18 13:32:03 -0400
+Served asset /fridge.png - 304 Not Modified (0ms)
+
+
+Started GET "/emails/one" for 127.0.0.1 at 2012-07-18 13:32:06 -0400
+Processing by EmailTemplatesController#email_one as HTML
+  Rendered email_templates/email_one.html.erb (0.4ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/laundry2.jpg" for 127.0.0.1 at 2012-07-18 13:32:06 -0400
+Served asset /laundry2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fridge.png" for 127.0.0.1 at 2012-07-18 13:32:06 -0400
+Served asset /fridge.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linens.jpg" for 127.0.0.1 at 2012-07-18 13:32:06 -0400
+Served asset /linens.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/email_banner.png" for 127.0.0.1 at 2012-07-18 13:32:06 -0400
+Served asset /email_banner.png - 304 Not Modified (0ms)

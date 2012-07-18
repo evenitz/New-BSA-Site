@@ -106,6 +106,7 @@ match 'summer/microfridge/order' => 'summer#order'
 match 'summer/souvenirs' => 'summer#souvenirs'
 
 match 'emails/one' => 'email_templates#email_one'
+match 'emails/two' => 'email_templates#email_two'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

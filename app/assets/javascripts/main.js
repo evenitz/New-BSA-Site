@@ -20,6 +20,6 @@ $(function() {
     }
   });
 
-  $('#main_container').css("height", Math.max($('#tab_content_text').height() + 120, $('#tabs').find('ul').height() + 60, 500));
+  $('#main_container').css("height", Math.max($('#tab_content_text').height() + 180, $('#tabs').find('ul').height() + 60, 600));
 
 });

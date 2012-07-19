@@ -8,14 +8,16 @@
   </div>
   <div id="tab_navigation">
     <ul>
-      <li><%= link_to "Store Info", students_store_info_path %></li>
-      <li><%= link_to "Gallery", students_gallery_path %></li>
+      <li><%= link_to "Store Info", students_vault_store_info_path %></li>
+      <li><%= link_to "Gallery", students_vault_gallery_path %></li>
     </ul>
   </div>
   <div id="tab_content">
     <div id="tab_content_text">
       <hr>
-      <p>The Vault is open on:
+      <div class="content_box">
+        <h2> Vault Hours </h2>
+        <p>The Vault is open on:
 				<ul>
 					<li>Tuesday: 11:00 AM - 1:30 PM</li>
 					<li>Thursday: 11:00 AM - 1:30 PM</li>
@@ -23,7 +25,11 @@
 				</ul></p>
 				<p>On weather permitting days, the Vault operates on the Main Green, near Faunce Arch, and next to the Bruno statue.</p>
 				<p>On non-weather permitting days, the Vault operates inside the J. Walter Wilson lobby.</p>
+      </div>
+      <div class="content_box">
+        <h2> Facebook Updates </h2>
 				<p>We have a regularly updated feed of store information, locations, and news on our <a href="http://www.facebook.com/pages/The-Vault/157626757630278">Facebook</a>!</p>
+      </div>
     </div>
     <div id="tab_content_image">
       <%= image_tag "vaultlogo.jpg", :width => 200 %>

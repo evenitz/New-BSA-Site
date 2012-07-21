@@ -8,11 +8,14 @@ $light_brown: rgb(75, 35, 27);
 
 body {
   background-color: #ccc;
-  background-color: rgb(232, 245, 252);
-  background: -webkit-gradient(linear, left top, left bottom, from($top_blue), to($bottom_blue));
-  background: -moz-linear-gradient(top,  $top_blue,  $bottom_blue);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$top_blue, endColorstr=$bottom_blue);
+  //background-color: rgb(232, 245, 252);
+  //background: -webkit-gradient(linear, left top, left bottom, from($top_blue), to($bottom_blue));
+  //background: -moz-linear-gradient(top,  $top_blue,  $bottom_blue);
+  //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$top_blue, endColorstr=$bottom_blue);
 }
+
+// shadow
+
 
 
 
@@ -22,12 +25,23 @@ p {
   font-size: 16px;
   margin-top: 12px;
   margin-bottom: 12px;
+  //font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: Georgia, serif;
+}
+
+h3, h4 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h2, h1 {
   color: $cardinal_red;
   text-align: center;
 }
+
+
 
 header {
   background-color: white;
@@ -37,6 +51,7 @@ header {
   margin-bottom: 25px;
   box-shadow: 13px 13px 5px #888888;
   font-size: 20px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #banner {
@@ -289,6 +304,8 @@ header ul {
     font-size: 35px;
     margin-left: auto;
     margin-right: auto;
+  }
+  p {
   }
 }
 
@@ -646,3 +663,6 @@ footer {
 */
 
 
+#main_container, #home_container, header, footer {
+  box-shadow: none;
+}

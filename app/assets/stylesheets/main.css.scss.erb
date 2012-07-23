@@ -6,12 +6,17 @@ $top_blue: rgb(197, 225, 250);
 $bottom_blue: rgb(232, 245, 252);
 $light_brown: rgb(75, 35, 27);
 
+$top_blue: #fff;
+$bottom_blue: #ccc;
+
 body {
-  background-color: #ccc;
   //background-color: rgb(232, 245, 252);
   //background: -webkit-gradient(linear, left top, left bottom, from($top_blue), to($bottom_blue));
   //background: -moz-linear-gradient(top,  $top_blue,  $bottom_blue);
   //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$top_blue, endColorstr=$bottom_blue);
+  background-image: url("<%= asset_path "bg.jpg" %>");
+  background-repeat: repeat-x;
+  background-color: rgb(217, 219, 217);
 }
 
 // shadow
@@ -50,8 +55,8 @@ h1 {
 
 header {
   background-color: white;
-  border: solid 3px;
-  border-color: #888;
+  //border: solid 3px;
+  //border-color: #888;
   //padding-bottom: 1px;
   margin-bottom: 25px;
   box-shadow: 13px 13px 5px #888888;
@@ -60,15 +65,15 @@ header {
 }
 
 #banner {
-  background-image: url("<%= asset_path "top_banner-4.png"%>");
+  background-image: url("<%= asset_path "top_banner-5.jpg"%>");
+  height: 170px;
 }
 
 #logo {
-  padding: 25px;
+  padding: 50px;
 }
 
-#navivation {
-  display: inline-block;
+#navigation {
 }
 
 header a {
@@ -110,7 +115,7 @@ header ul {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
-  border: solid 3px;
+  border: solid 1px;
   border-color: #888;
   box-shadow: 13px 13px 5px #888888;
 }
@@ -212,10 +217,12 @@ header ul {
   margin-left: 60px;
  // margin-left: auto;
 //  margin-right: auto;
+  h2 {
+    font-size: 23px;
+  }
 }
 
 #navigation {
-  border-bottom: solid;
   //margin-left: 80px;
   //margin-right: 80px;
   //margin-bottom: 15px;
@@ -225,6 +232,8 @@ header ul {
   padding-bottom: 20px;
   border-width: 2px;
   background-color: $light_brown;
+  border-color: #888;
+  border: solid 1px;
 }
 
 #navigation a {
@@ -273,6 +282,7 @@ header ul {
   .news_img {
     float: left;
     width: 200px;
+    height: 200px;
     margin-right: 50px;
   }
 
@@ -339,7 +349,7 @@ header ul {
 #main_container {
   background-color: white;
   box-shadow: 13px 13px 5px #888888;
-  border: solid 3px;
+  border: solid 1px;
   border-color: #888;
 }
 
@@ -409,6 +419,7 @@ header ul {
   padding-top: 25px;
   margin-bottom: 30px;
   text-align: center;
+  font-variant: small-caps;
 /*  background-color: #D9CEB2; */
 }
 
@@ -422,6 +433,7 @@ header ul {
 #tab_content_text h2 {
   color: rgb(215, 4, 18);
   text-align: center;
+  font-variant: small-caps;
  /* background-color: #D9CEB2; */
 }
 
@@ -460,6 +472,15 @@ header ul {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 16px;
+}
+
+#tab_navigation ul {
+  border-bottom: solid 2px;
+  padding-bottom: 30px;
+  margin-left: 0px;
+  padding-left: 25px;
+  margin-bottom: 20px;
 }
 
 .content_box {
@@ -492,7 +513,7 @@ footer {
   background-color: white;
   box-shadow: 13px 13px 5px #888888;
   border: solid 3px;
-  border-color: #888;
+//  border-color: #888;
   background-color: $light_brown;
 
   p {

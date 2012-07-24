@@ -14,11 +14,11 @@ body {
   //background: -webkit-gradient(linear, left top, left bottom, from($top_blue), to($bottom_blue));
   //background: -moz-linear-gradient(top,  $top_blue,  $bottom_blue);
   //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$top_blue, endColorstr=$bottom_blue);
-  //background-image: url("<%= asset_path "bg.jpg" %>");
-  //background-repeat: repeat-x;
-  //background-color: rgb(217, 219, 217);
-  background-color: rgb(242, 242, 242);
-  background-color: rgb(228, 221, 222);
+  background-image: url("<%= asset_path "bg.jpg" %>");
+  background-repeat: repeat-x;
+  background-color: rgb(217, 219, 217);
+  //background-color: rgb(242, 242, 242);
+  //background-color: rgb(228, 221, 222);
 }
 
 // shadow
@@ -499,7 +499,7 @@ header ul {
   background-repeat: no-repeat;
   background-position: right;
 
-  ul {
+  ul, ol {
     margin-top: 25;
     margin-bottom: 25px;
   }
@@ -508,6 +508,7 @@ header ul {
     font-size: 16px;
     margin-left: 20px;
     margin-top: 10px;
+    line-height: 25px;
   }
 }
 

@@ -1,5 +1,7 @@
 BsaWebsite::Application.routes.draw do
 
+#match "/*glob" => 'home#work'
+
 root :to => 'home#index'
 
 match "/storage" => 'students#storage_redirect'

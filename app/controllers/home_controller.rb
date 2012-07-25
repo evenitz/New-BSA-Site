@@ -1,4 +1,7 @@
 class HomeController < ApplicationController
+  def work
+    render :layout => false
+  end
   def index
     render :layout => false
     #@page_title = WebsiteResource.get('page-title-home').content

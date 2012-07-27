@@ -20,45 +20,16 @@
             <div class="featured">
               <div id="slides">
                 <div class="slides_container">
-          <!-- BEGIN SLIDE LISTS -->
-          <!-- SLIDE 1 Sublet Directory -->
-                  <div>
-                    <div class="image">
-                      <%= image_tag "bsa_house.png", :width => "230px" %>
-                    </div>
-                    <div class="details">
-                      <h2>BSA Sublet Directory Now Live!</h2>
-                      <p class="details_p_first">BSA has partnered with JumpOffCampus (JOC) to offer students the opportunity to list and browse sublets for the summer. Using Google Maps as a foundation, JOC allows you to visually see where sublets are offered, what their prices and availability dates are, and more! </p>
-                      <p>So, what are you waiting for? Click the link below to browse the directory or post your summer sublet today.</p>
-                      <a class="btn" href="http://bsa.jumpoffcampus.com/">Learn More</a>
-                    </div>
-                  </div>
-                <!-- END SLIDE 1 BSA INSPIRE -->
-                <!-- SLIDE 2 BSA OPPORTUNITIES -->
-                  <div>
-                    <div class="image">
-                      <%= image_tag "brown_slide_logo.png", :height => "230px" %>
-                    </div>
-                    <div class="details">
-                      <h2>Summer Programs</h2>
-                      <p class="details_p_first"> Are you a summer student? BSA continues to provide services to those at Brown during the summer months. Check out our range of options to make your summer the best it can be. </p>
-                      <a class="btn" href="/summer">Learn More</a>
-                    </div>
-                  </div>
-          <!-- END SLIDE 2 BSA OPPORTUNITIES -->
-          <!-- SLIDE 3 Marketplace -->
-                  <div>
-                    <div class="image">
-                      <%= image_tag "bsa_site_logo.png", :width => "230px" %>
-                    </div>
-                    <div class="details">
-                      <h2>Brown Marketplace</h2>
-                      <p class="details_p_first">Got a product or event you want to sell? Let BSA handle all of the logistics so you can focus on what's important!</p> 
-                      <p>The Brown Marketplace is the official application serving all University student groups, offering secure transactions to both the Brown community and the general public.</p>
-                      <a class="btn" href="https://payment.brown.edu/C20460_ustores/web/store_main.jsp?STOREID=2&SINGLESTORE=true">Learn More</a>
-                    </div>
-                  </div>
-          <!--END SLIDE 3 Squid Scanner Access Control -->
+                  <!-- BEGIN SLIDE LISTS -->
+                  <!-- SLIDE 1 Sublet Directory -->
+                    <%= render "slide_two" %>
+                  <!-- END SLIDE 1 BSA INSPIRE -->
+                  <!-- SLIDE 2 BSA OPPORTUNITIES -->
+                    <%= render "slide_one" %> 
+                  <!-- END SLIDE 2 BSA OPPORTUNITIES -->
+                  <!-- SLIDE 3 Marketplace -->
+                    <%= render "slide_three" %>
+                  <!--END SLIDE 3 Squid Scanner Access Control -->
                 </div>
               </div>
           <!-- END SLIDE LIST -->

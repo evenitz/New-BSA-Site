@@ -13,6 +13,6 @@ class StudentsController < ApplicationController
   end
 
   def backup_redirect
-    redirect_to students_backup_path
+    redirect_to students_sugarsync_path
   end
 end

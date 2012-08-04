@@ -3,8 +3,8 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
   background: -moz-linear-gradient(top,  #fff,  #ccc);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#ccc); */
-  background-image: url("<%= asset_path "bg.jpg" %>");
-  background-repeat: repeat-x;
+  /*background-image: url("<%= asset_path "bg.jpg" %>");
+  background-repeat: repeat-x;*/
   background-color: rgb(217, 219, 217);
   /*background-color: rgb(242, 242, 242);
   background-color: rgb(228, 221, 222);*/
@@ -56,13 +56,11 @@ header {
 }
 
 #banner {
-  background-image: url("<%= asset_path "top_banner-5.jpg"%>");
-  height: 170px;
 }
 
 #logo {
-  padding: 50px;
 }
+
 
 #navigation {
 }
@@ -216,7 +214,6 @@ header a {
 }
 
 .slide_one {
-  background: url(<%= asset_path "slide-3-bg.jpg" %>);
   height: 380px;
 }
 
@@ -226,8 +223,21 @@ header a {
 }
 
 .slide_three {
-  background: url(<%= asset_path "slide-3-bg.jpg" %>);
+  background: url(<%= asset_path "sugar-slide.png" %>);
   height: 380px;
+}
+
+.slide_three .slide_text {
+  width: 550px;
+  margin-left: 320px; 
+}
+
+.slide_three h2 {
+  color: rgb(34, 34, 34);
+}
+
+.slide_three h3 {
+  color: rgb(40, 158, 201);
 }
 
 #service_list {
@@ -478,7 +488,8 @@ p {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   padding-right: 30px;
-  padding-left: 70px;
+  /*padding-left: 70px;*/
+  padding-left: 40px;
 }
 
 #tabs a {

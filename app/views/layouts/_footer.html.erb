@@ -2,41 +2,35 @@
   <div id="footer_content">
     <div id="top_footer">
       <div id="contact_column">
-        <h3> Contact Form </h3>
-        <form id="contact_form" method="post" action="">
-          <p>
-            Name: <input type="text" name="name" />
-          </p>
-          <p>
-            Email: <input type="email" name="name" />
-          </p>
-          <p>
-            Content: <textarea name="content" cols="40" rows="6"></textarea>
-          </p>
-          <p>
-            <input type='submit' name='Submit' value='Submit' class="btn btn-primary btn-large submit" />
-          </p>
-        </form>
+        <h3> Feedback Form </h3>
+        <div id="contact_form">
+          <%= render 'layouts/comment_form' %>
+        </div>
       </div>
       <div id="link_column">
-        <h3> Site Links </h3>
-        <p><%= link_to "Laundry Service", "#" %></p>
-        <p><%= link_to "Event Ticketing", "#" %></p>
-        <p><%= link_to "Storage", "#" %></p>
-        <p><%= link_to "Advertising", "#" %></p>
+        <h3> Student Life </h3>
+        <p><%= link_to "Laundry Service", students_laundry_path %></p>
+        <p><%= link_to "Cloud Storage", students_sugarsync_path %></p>
+        <p><%= link_to "Microfridges", students_microfridge_path %></p>
+        <p><%= link_to "Marketplace", students_marketplace_path %></p>
+        <p><%= link_to "Care Packages", students_package_path %></p>
       </div>
       <div id="link_column_2">
-        <h3> Site Links </h3>
-        <p><%= link_to "Microfridges", "#" %></p>
-        <p><%= link_to "Backup software", "#" %></p>
-        <p><%= link_to "Care Packages", "#" %></p>
-        <p><%= link_to "Student Planners", "#" %></p>
+        <h3> Business </h3>
+        <p><%= link_to "Billboards", biz_billboards_path %></p>
+        <p><%= link_to "Event Ticketing", biz_ticket_path %></p>
+        <p><%= link_to "Vendor Tables", biz_vendor_tables_path %></p>
+        <p><%= link_to "Planners", biz_planners_path %></p>
+        <p><%= link_to "Product Request", biz_request_path %></p>
       </div>
 
       <div id="follow_column">
-        <h3> Follow Us </h3>
-        <p><%= link_to "Facebook", "#" %></p>
-        <p><%= link_to "Twitter", "#" %></p>
+        <h3> Connect with BSA </h3>
+        <p><%= link_to "Facebook", "http://www.facebook.com/pages/Brown-Student-Agencies/340781094916", :target => "_blank" %></p>
+        <p><%= link_to "About BSA", about_history_path %></p>
+        <p><%= link_to "Our Staff", about_staff_path %></p>
+        <p><%= link_to "Contact BSA", about_contact_path %></p>
+        <p><%= link_to "Partner with BSA", about_partner_path %></p>
       </div>
     </div>
     <div id="bottom_footer">

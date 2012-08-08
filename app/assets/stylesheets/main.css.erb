@@ -50,7 +50,6 @@ header {
   border-color: #888;
   /*padding-bottom: 1px;*/
   margin-bottom: 25px;
-  /*box-shadow: 13px 13px 5px #888888;*/
   font-size: 20px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -150,7 +149,6 @@ header a {
   border: solid 5px;
   border-color: #320000;
   border-color: black;
-  box-shadow: 13px 13px 5px #222;
 }
 
 .no_shadow {
@@ -188,6 +186,7 @@ header a {
 
 .slide_side_image img {
   position: relative;
+  top: 20px;
 }
 
 .slide_title {
@@ -205,7 +204,7 @@ header a {
 }
 
 .slide_text p {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -222,8 +221,47 @@ header a {
   height: 380px;
 }
 
+.care_slide {
+  height: 380px;
+}
+
+.slide_words {
+  position: absolute;
+}
+
+.care_slide .slide_text {
+  width: 420px;
+  margin-left: 260px;
+}
+
+.care_slide h2 {
+  color: rgb(86, 13, 63);
+}
+
+.slide_right_side_image {
+  margin-left: 700px;
+  position: absolute;
+}
+
+.care_slide .more {
+}
+
+.slide_right_side_image img {
+  position: relative;
+  top: 20px;
+}
+
+.care_slide h2 {
+  width: 400px;
+  margin-left: 270px;
+}
+
+
+.care_slide p {
+}
+
 .slide_three {
-  background: url(<%= asset_path "sugar-slide.png" %>);
+  background: url(<%= asset_path "cloud-bg.jpg" %>);
   height: 380px;
 }
 
@@ -232,9 +270,14 @@ header a {
   margin-left: 320px; 
 }
 
+.slide_three .slide_title {
+  margin-left: 100px;
+}
+
 .slide_three h2 {
   color: rgb(34, 34, 34);
 }
+
 
 .slide_three h3 {
   color: rgb(40, 158, 201);
@@ -668,14 +711,26 @@ footer h3 {
 #contact_column p {
   text-align: right;
 }
+
 #contact_column input, textarea {
   margin-left: 20px;
 }
+
+#conteact_column textarea {
+  height: 100px;
+}
 #contact_column .btn {
-  margin-right: 80px;
+  margin-left: 160px;
+  margin-top: 10px;
 }
 #contact_column h3 {
   text-align: center;
+}
+
+.comment_field label {
+  color: white;
+  width: 70px;
+  float: left;
 }
 
 #link_column {
@@ -696,9 +751,9 @@ footer h3 {
 }
 
 #follow_column {
-  width: 100px;
+  width: 160px;
   float: left;
-  padding-left: 40px;
+  padding-left: 10px;
 }
 
 #bottom_footer {

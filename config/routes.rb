@@ -4,6 +4,8 @@ BsaWebsite::Application.routes.draw do
 
 root :to => 'home#index'
 
+match "/comment" => 'comments#send_email'
+
 match "/storage" => 'students#storage_redirect'
 match "/sa" => 'students#card_redirect'
 match "student-advantage" => 'students#card_redirect'

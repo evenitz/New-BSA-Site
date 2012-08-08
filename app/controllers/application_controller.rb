@@ -7,4 +7,5 @@ class ApplicationController < ActionController::Base
       redirect_to "http://reachbrown.com/reach"
     end
   end
+
 end

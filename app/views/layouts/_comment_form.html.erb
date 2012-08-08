@@ -1,0 +1,15 @@
+<%= form_for :email, :url => { :controller => "comments", :action => 'send_email' } do |f| %>
+  <div class="comment_field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="comment_field">
+    <%= f.label :email %>
+    <%= f.text_field :email_address %>
+  </div>
+  <div class="comment_field">
+    <%= f.label :commnet %>
+    <%= f.text_area :content, placeholder: "Leave a comment...", :rows => "10" %>
+  </div>
+    <%= f.submit "Submit", class: "btn btn-large btn-primary" %>
+<% end %>
